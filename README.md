@@ -9,7 +9,7 @@ Description:
 In my project you can convert given values and dont calculate by yourself)
 
 Purpose of the Game:
-To make our life more simple )
+To make our lifes more simple )
 
 Todolist:
 Create lists of the values;

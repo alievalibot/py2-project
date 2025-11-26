@@ -1,5 +1,6 @@
 import forex_python.converter
 import time
+from functions import convert_length
 
 sleep_time = 5
 
@@ -18,12 +19,6 @@ temp_coeffs = [[9/5, 32], [5/9, -32 * 5/9]]
 
 value_coeffs = [None, None]  
 c_rates = forex_python.converter.CurrencyRates()
-
-def convert_length(option, value):
-    if option == 1:
-        return value * length_coeffs[0]
-    else:
-        return value * length_coeffs[1]
 
 def convert_weight(option, value):
     if option == 1:

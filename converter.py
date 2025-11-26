@@ -1,4 +1,5 @@
 import forex_python.converter
+import time
 
 length_objects = ["km", "miles"]
 weight_objects = ["kg", "pounds"]
@@ -72,40 +73,60 @@ while choice != "0":
     
     elif choice == "1":
         v = float(input("Enter kilometers: "))
+        print("Thinking...")
+        time.sleep(5)
         print(f"{v} km = {convert_length(1, v)} miles")
         
     elif choice == "2":
         v = float(input("Enter miles: "))
+        print("Thinking...")
+        time.sleep(5)
         print(f"{v} miles = {convert_length(2, v)} km")
         
     elif choice == "3":
         v = float(input("Enter centimeters: "))
+        print("Thinking...")
+        time.sleep(5)
         print(f"{v} cm = {convert_cm_m(1, v)} m")
         
     elif choice == "4":
         v = float(input("Enter meters: "))
+        print("Thinking...")
+        time.sleep(5)
         print(f"{v} m = {convert_cm_m(2, v)} cm")
         
     elif choice == "5":
         v = float(input("Enter °C: "))
+        print("Thinking...")
+        time.sleep(5)
         print(f"{v} °C = {convert_temp(1, v)} °F")
         
     elif choice == "6":
         v = float(input("Enter °F: "))
+        print("Thinking...")
+        time.sleep(5)
         print(f"{v} °F = {convert_temp(2, v)} °C")
         
     elif choice == "7":
         v = float(input("Enter kilograms: "))
+        print("Thinking...")
+        time.sleep(5)
         print(f"{v} kg = {convert_weight(1, v)} pounds")
         
     elif choice == "8":
         v = float(input("Enter pounds: "))
+        print("Thinking...")
+        time.sleep(5)
         print(f"{v} pounds = {convert_weight(2, v)} kg")
         
     elif choice == "9":
         v = float(input("Enter USD: "))
+        print("Thinking...")
+        time.sleep(5)
         print(f"{v} USD = {convert_currency(1, v)} EUR")
         
     elif choice == "10":
         v = float(input("Enter EUR: "))
+        time.sleep(5)
+        print("Thinking...")
         print(f"{v} EUR = {convert_currency(2, v)} USD")

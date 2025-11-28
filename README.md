@@ -24,7 +24,7 @@ Students learning Python or unit conversions
 Anyone who needs quick basic conversions
 
 Screenshots:
-![Demo](images/converter.gif)
+![Demo](Images\converter.gif)
 
 Installation:
 Make sure you have Python installed.
